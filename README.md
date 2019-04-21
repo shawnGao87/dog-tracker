@@ -9,11 +9,11 @@
 
 ## End Points
 
-GET /dogs - List all dogs
-POST /dogs - Add a new dog
-GET /dogs/:id - Get details for one dog
-PUT /dogs/:id - Update details for one dog
-DELETE /dogs/:id - Remove a dog
+* GET /dogs - List all dogs
+* POST /dogs - Add a new dog
+* GET /dogs/:id - Get details for one dog
+* PUT /dogs/:id - Update details for one dog
+* DELETE /dogs/:id - Remove a dog
 
 e.g. http://localhost:5000/dogs to get all dogs
 
