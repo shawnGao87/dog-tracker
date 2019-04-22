@@ -17,7 +17,7 @@
 
 e.g. http://localhost:5000/dogs to get all dogs
 
-Here, assuming the id parameter is an integer.
+Here, assuming the id parameter is an integer. Also assume the data being posted will be as the body of the POST request and in JSON format. 
 
 I didn't add any data / form / request validation on neither back- nor front-end. i.e. You can totally submit an empty form on the front-end and the API will take it.
 
