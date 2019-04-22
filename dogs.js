@@ -72,7 +72,7 @@ router.get("/:id", (req, res) => {
 	if (dog) {
 		res.status(200).send(dog[0]);
 	} else {
-		res.status(204).send({ message: "No Dog Found!" });
+		res.status(404).send({ message: "No Dog Found!" });
 	}
 });
 
